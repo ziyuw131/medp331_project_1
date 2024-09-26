@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Book</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4288294e17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Previous Button -->
+    <button id="prev-btn" aria-label="Previous Page">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
+
+    <!-- Book -->
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>A DAY IN BEIJING</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <img src="1.png" alt="Back 1" class="centered-image">
+                </div>
+            </div>
+        </div>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <p>In the bustling heart of Beijing, Mei began her day with a visit to “Jincha,” her favorite tea shop. The warm, aromatic scent of jasmine enveloped her as she sipped a steaming cup of chrysanthemum tea.</p>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <img src="2.png" alt="Back 2" class="centered-image">
+                </div>
+            </div>
+        </div>
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <p>Next, she wandered through the Forbidden City, marveling at its majestic architecture. Seeking solace in the gardens, she sat on a bench, sketchbook in hand, capturing the graceful willows swaying in the breeze. As she drew, the laughter of children playing nearby warmed her heart.</p>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <img src="3.png" alt="Back 3" class="centered-image">
+                </div>
+            </div>
+        </div>
+        <!-- Paper 4 -->
+        <div id="p4" class="paper">
+            <div class="front">
+                <div id="f4" class="front-content">
+                    <p>
+                      As the sun set, casting a golden glow over the city, Mei settled at a rooftop café. Sipping her jasmine latte, she reflected on her day, feeling gratitude for the rich tapestry of her life in Beijing. Later, a message from friends beckoned her to a lively bar, where laughter and music filled the air.
+                      Surrounded by loved ones, Mei felt a profound sense of belonging. In that moment, she understood that her life was a beautiful blend of history and modernity, each day an opportunity for new experiences in a city as vibrant as her dreams.
+                    </p>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b4" class="back-content">
+                    <h1>END</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Next Button -->
+    <button id="next-btn" aria-label="Next Page">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
+
+    <!-- Background Music -->
+    <embed src="bgm.m4a" loop="true" autostart="true" width="2" height="0">
+
+</body>
+</html>
